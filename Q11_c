@@ -1,0 +1,16 @@
+import nltk
+import unicodedata
+import re
+import numpy as np
+import math
+from nltk.corpus import brown
+import random
+import sys
+
+data = "".join(brown.words())
+data = data.lower() 
+data =  re.sub('[^A-Za-z ]+', '',data)
+data = re.sub('  +','',data)
+data = data.encode("ascii")
+print(len(data))
+data = data[:50000]

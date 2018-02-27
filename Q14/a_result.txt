@@ -1,0 +1,2 @@
+Q14 a is a prerequisit for b,c,d. 
+the code and output is included in b,c,d results.
